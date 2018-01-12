@@ -18,16 +18,13 @@ namespace WindowsFormsApplication3
     {
         List<Shape> listobject;
         string[] value;
-
         public ShapeDialoge()
         {
             InitializeComponent();
-	}
-
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
         }
-
         private void buttonOpenFileDialog_Click(object sender, EventArgs e)
         {
             string text;
@@ -71,7 +68,6 @@ namespace WindowsFormsApplication3
                     listobject.Add(shape);
                 }
             }
-
             List<Type> types = getTypes(listobject);
             comboBoxShape.Items.Clear();
             foreach (var typeName in types)
@@ -85,12 +81,11 @@ namespace WindowsFormsApplication3
             List<Type> types = list.ConvertAll<Type>(c => c.GetType()).Distinct<Type>().ToList<Type>();
             return types;
         }
-
         private void buttonSaveFileDialog_Click(object sender, EventArgs e)
         {
             SaveFileDialog savefile = new SaveFileDialog();
             savefile.FileName = "";
-            savefile.Filter = "(*.json)|*.json";
+            savefile.Filter = "|*.json";
             if (listobject != null)
             {
                 if (savefile.ShowDialog() == DialogResult.OK)
@@ -130,7 +125,6 @@ namespace WindowsFormsApplication3
             textBoxShape.Text = string.Join(Environment.NewLine, filterShape(comboBoxShape.SelectedItem.ToString()));
 
         }
-
         public string[] filterShape(string name)
         {
             List<string> termsList = new List<string>();
