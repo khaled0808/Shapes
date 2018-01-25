@@ -12,12 +12,8 @@ using System.Windows.Forms;
 using System.Dynamic;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-<<<<<<< HEAD
-namespace WindowsFormsApplication3
-=======
 
 namespace ShapeAndJson
->>>>>>> Adding Rest Service
 {
     public partial class ShapeDialoge : Form
     {
@@ -167,6 +163,3 @@ namespace ShapeAndJson
         }
     }
 }
-
-
-

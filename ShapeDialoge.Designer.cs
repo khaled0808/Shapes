@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-﻿namespace WindowsFormsApplication3
-=======
 ﻿namespace ShapeAndJson
->>>>>>> Adding Rest Service
 {
     partial class ShapeDialoge
     {
@@ -128,4 +124,3 @@
         private System.Windows.Forms.Label label1;
     }
 }
-

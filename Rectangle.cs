@@ -4,16 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-<<<<<<< HEAD
-namespace WindowsFormsApplication3
-{
-    [Newtonsoft.Json.JsonObject("Rectangle")]
-    class Rectangle : Shape
-=======
 namespace ShapeAndJson
 {
     public class Rectangle : Shape
->>>>>>> Adding Rest Service
     {
         [Newtonsoft.Json.JsonProperty("height")]
         public double height { get; set; }
@@ -28,14 +21,12 @@ namespace ShapeAndJson
             this.width = width;
             this.height = height;
         }
-<<<<<<< HEAD
-=======
 
         public Rectangle()
         {
             // TODO: Complete member initialization
         }
->>>>>>> Adding Rest Service
+
         public override double CalculateArea()
         {
             area = (this.width * this.height);

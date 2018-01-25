@@ -7,11 +7,7 @@
     <ProjectGuid>{D88E7CF2-8093-4004-90A3-D53DD6E77BF3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-<<<<<<< HEAD
-    <RootNamespace>WindowsFormsApplication3</RootNamespace>
-=======
     <RootNamespace>ShapeAndJson</RootNamespace>
->>>>>>> Adding Rest Service
     <AssemblyName>WindowsFormsApplication3</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,11 +37,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-<<<<<<< HEAD
-=======
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Web" />
->>>>>>> Adding Rest Service
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -57,10 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Circle.cs" />
-<<<<<<< HEAD
-=======
     <Compile Include="ConvertUtil.cs" />
->>>>>>> Adding Rest Service
     <Compile Include="ShapeDialoge.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,10 +73,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-<<<<<<< HEAD
-=======
       <DesignTime>True</DesignTime>
->>>>>>> Adding Rest Service
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
