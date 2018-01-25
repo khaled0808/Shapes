@@ -1,0 +1,9 @@
+diff a/RestService/TextInput.cs b/RestService/TextInput.cs	(rejected hunks)
+@@ -14,6 +14,7 @@
+ -        public string textFile { get; set; }
+ -    }
+ -}
+++<<<<<<< HEAD
+ +﻿using System;
+ +using System.Collections.Generic;
+ +using System.Linq;

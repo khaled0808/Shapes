@@ -4,7 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+<<<<<<< HEAD
 namespace WindowsFormsApplication3
+=======
+namespace ShapeAndJson
+>>>>>>> Adding Rest Service
 {
     static class Program
     {

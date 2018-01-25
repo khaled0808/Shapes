@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿namespace WindowsFormsApplication3
+=======
+﻿namespace ShapeAndJson
+>>>>>>> Adding Rest Service
 {
     partial class ShapeDialoge
     {
