@@ -1,0 +1,56 @@
+{
+	"circles": [
+		{
+			"id": 1,
+			"raduis": x,
+			"area": x
+		},
+		{
+			"id": 1,
+			"raduis": x,
+			"area": x
+		},
+		{
+			"id": 1,
+			"raduis": x,
+			"area": x
+		}
+	],
+	"squares": [
+		{
+			"id": 1,
+			"width": x,
+			"area": x
+		},
+		{
+			"id": 1,
+			"width": x,
+			"area": x
+		},
+		{
+			"id": 1,
+			"width": x,
+			"area": x
+		}
+	],
+	"rectangles": [
+		{
+			"id": 1,
+			"width": x,
+			"height": x,
+			"area": x
+		},
+		{
+			"id": 1,
+			"width": x,
+			"height": x,
+			"area": x
+		},
+		{
+			"id": 1,
+			"width": x,
+			"height": x,
+			"area": x
+		}
+	]
+}

@@ -1,4 +1,4 @@
-﻿using ShapeAndJson;
+﻿using ShapeData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +27,7 @@ namespace RestService
         {
             return listShape;
         }
+
         public Dictionary<string, List<Circle>> getListCircle()
         {
             return listCircle;
@@ -36,14 +37,17 @@ namespace RestService
         {
             listCircle.Add(guid, circle);
         }
+
         public void addShape<T>(string guid, List<T> shape) where T : Shape
         {
             listShape.Add(guid, shape);
         }
+
         public void deleteCircle(string guid)
         {
             listCircle.Remove(guid);
         }
+
         public void deleteShape(string guid)
         {
             listShape.Remove(guid);

@@ -36,3 +36,12 @@ C:\test\Shapes\RestService\bin\Newtonsoft.Json.xml
 C:\test\Shapes\RestService\obj\Debug\RestService.csprojResolveAssemblyReference.cache
 C:\test\Shapes\RestService\obj\Debug\RestService.dll
 C:\test\Shapes\RestService\obj\Debug\RestService.pdb
+Z:\test\Shapes\RestService\bin\RestService.dll.config
+Z:\test\Shapes\RestService\bin\RestService.dll
+Z:\test\Shapes\RestService\bin\RestService.pdb
+Z:\test\Shapes\RestService\bin\Newtonsoft.Json.dll
+Z:\test\Shapes\RestService\bin\ShapeData.dll
+Z:\test\Shapes\RestService\bin\ShapeData.pdb
+Z:\test\Shapes\RestService\obj\Debug\RestService.csprojResolveAssemblyReference.cache
+Z:\test\Shapes\RestService\obj\Debug\RestService.dll
+Z:\test\Shapes\RestService\obj\Debug\RestService.pdb

@@ -4,7 +4,7 @@ using System.ServiceModel.Description;
 using RestService;
 using System;
 using System.Collections.Generic;
-using ShapeAndJson;
+using ShapeData;
 
 namespace RestService
 {
@@ -40,7 +40,7 @@ namespace RestService
         [OperationContract]
         [WebInvoke(Method = "PUT",
             ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare, UriTemplate = "addShapes")]
-        ResultData addShapes(TextInput input);
+        ResultData addShapes(TextFileInput input);
 
         [OperationContract]
         [WebGet(ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "calculateShapes/{uuid}")]

@@ -85,25 +85,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassResult.cs" />
-    <Compile Include="ListCircle.cs" />
-    <Compile Include="RestCircle.cs" />
     <Compile Include="IRestServiceImpl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RequestData.cs" />
     <Compile Include="ResultData.cs" />
     <Compile Include="RestServiceImpl.svc.cs">
       <DependentUpon>RestServiceImpl.svc</DependentUpon>
     </Compile>
     <Compile Include="ServiceSinglton.cs" />
-    <Compile Include="TextInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ShapAndJson.csproj">
-      <Project>{d88e7cf2-8093-4004-90a3-d53dd6e77bf3}</Project>
-      <Name>ShapAndJson</Name>
+    <ProjectReference Include="..\ShapeData\ShapeData\ShapeData.csproj">
+      <Project>{763fa2ad-4ba9-49e3-903f-ebcf27a62d2c}</Project>
+      <Name>ShapeData</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

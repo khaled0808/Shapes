@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.ServiceModel.Description;
 using System.Linq;
 using Newtonsoft.Json;
-using ShapeAndJson;
 using Newtonsoft.Json.Linq;
 using System.Runtime.Serialization;
 using System.Collections;
+using ShapeData;
 
 namespace RestService
 {
@@ -70,7 +70,7 @@ namespace RestService
             return resultData;
         }
 
-        public ResultData addShapes(TextInput input)
+        public ResultData addShapes(TextFileInput input)
         {
             Guid guid = Guid.NewGuid();
             string text = input.textFile;

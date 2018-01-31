@@ -5,10 +5,10 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 
-namespace RestService
+namespace ShapeData
 {
     [ServiceContract()]
-    public class TextInput
+    public class TextFileInput
     {
         [Newtonsoft.Json.JsonProperty("textFile")]
         public string textFile { get; set; }

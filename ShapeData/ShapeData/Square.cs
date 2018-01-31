@@ -4,32 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShapeAndJson
+namespace ShapeData
 {
-    public class Rectangle : Shape
+
+    [Newtonsoft.Json.JsonObject("Square")]
+    public class Square : Shape
     {
-        [Newtonsoft.Json.JsonProperty("height")]
-        public double height { get; set; }
+
         [Newtonsoft.Json.JsonProperty("width")]
         public double width { get; set; }
+
         [Newtonsoft.Json.JsonProperty("area")]
         public double area;
-
-        public Rectangle(int id, double width, double height)
+        public Square()
         {
-            Id = id;
+        }
+
+        public Square(int id, double width)
+        {
             this.width = width;
-            this.height = height;
+            Id = id;
         }
-
-        public Rectangle()
-        {
-            // TODO: Complete member initialization
-        }
-
         public override double CalculateArea()
         {
-            area = (this.width * this.height);
+            area = this.width * this.width;
             return area;
         }
     }

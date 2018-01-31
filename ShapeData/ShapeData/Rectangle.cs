@@ -3,34 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ShapeAndJson;
-using System.ServiceModel;
-using System.ServiceModel.Web;
 
-namespace ShapeAndJson
+namespace ShapeData
 {
-
-    [Newtonsoft.Json.JsonObject("Square")]
-    public class Square : Shape
+    public class Rectangle : Shape
     {
-
+        [Newtonsoft.Json.JsonProperty("height")]
+        public double height { get; set; }
         [Newtonsoft.Json.JsonProperty("width")]
         public double width { get; set; }
-
         [Newtonsoft.Json.JsonProperty("area")]
         public double area;
-        public Square()
+
+        public Rectangle(int id, double width, double height)
         {
+            Id = id;
+            this.width = width;
+            this.height = height;
         }
 
-        public Square(int id, double width)
+        public Rectangle()
         {
-            this.width = width;
-            Id = id;
+            // TODO: Complete member initialization
         }
+
         public override double CalculateArea()
         {
-            area = this.width * this.width;
+            area = (this.width * this.height);
             return area;
         }
     }

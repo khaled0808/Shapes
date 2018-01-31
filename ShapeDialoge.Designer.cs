@@ -38,14 +38,14 @@
             // 
             // textBoxPath
             // 
-            this.textBoxPath.Location = new System.Drawing.Point(12, 63);
+            this.textBoxPath.Location = new System.Drawing.Point(12, 21);
             this.textBoxPath.Name = "textBoxPath";
-            this.textBoxPath.Size = new System.Drawing.Size(949, 20);
+            this.textBoxPath.Size = new System.Drawing.Size(471, 20);
             this.textBoxPath.TabIndex = 1;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(984, 61);
+            this.button3.Location = new System.Drawing.Point(492, 20);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(93, 23);
             this.button3.TabIndex = 0;
@@ -55,28 +55,29 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(984, 453);
+            this.button4.Location = new System.Drawing.Point(492, 380);
             this.button4.Name = "button4";
             this.button4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.button4.Size = new System.Drawing.Size(93, 23);
             this.button4.TabIndex = 3;
-            this.button4.Text = "SaveAsJson";
+            this.button4.Text = "Export as JSON";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.buttonSaveFileDialog_Click);
             // 
             // textBoxShape
             // 
-            this.textBoxShape.Location = new System.Drawing.Point(12, 89);
+            this.textBoxShape.Location = new System.Drawing.Point(12, 77);
             this.textBoxShape.Multiline = true;
             this.textBoxShape.Name = "textBoxShape";
-            this.textBoxShape.Size = new System.Drawing.Size(949, 356);
+            this.textBoxShape.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxShape.Size = new System.Drawing.Size(471, 329);
             this.textBoxShape.TabIndex = 6;
             // 
             // comboBoxShape
             // 
             this.comboBoxShape.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxShape.FormattingEnabled = true;
-            this.comboBoxShape.Location = new System.Drawing.Point(984, 271);
+            this.comboBoxShape.Location = new System.Drawing.Point(89, 50);
             this.comboBoxShape.Name = "comboBoxShape";
             this.comboBoxShape.Size = new System.Drawing.Size(93, 21);
             this.comboBoxShape.TabIndex = 2;
@@ -85,7 +86,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(995, 255);
+            this.label1.Location = new System.Drawing.Point(12, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 13);
             this.label1.TabIndex = 8;
@@ -95,7 +96,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1111, 529);
+            this.ClientSize = new System.Drawing.Size(599, 413);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBoxShape);
             this.Controls.Add(this.textBoxShape);

@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ShapeAndJson;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace ShapeAndJson
+namespace ShapeData
 {
     public class ConvertUtil
     {
@@ -74,7 +73,7 @@ namespace ShapeAndJson
                 foreach (Type type in types)
                 {
                     List<Shape> shapes = listobject.Where(s => s.GetType() == type).ToList();
-                    string shapesJson = JsonConvert.SerializeObject(shapes);
+                    string shapesJson = JsonConvert.SerializeObject(shapes, Formatting.Indented);
                     if (counter != 0)
                     {
                         streamWriter.Write(",");
@@ -88,6 +87,19 @@ namespace ShapeAndJson
                 streamWriter.Write("}]");
                 return streamWriter.ToString();
             }
+        }
+
+        public static string[] filterShape(List<Shape> listobject, string name)
+        {
+            List<string> termsList = new List<string>();
+            foreach (var item in listobject)
+            {
+                if (item.GetType().Name.ToLower() == name.ToLower())
+                {
+                    termsList.Add(JsonConvert.SerializeObject(item, Formatting.Indented));
+                }
+            }
+            return termsList.ToArray();
         }
     }
 }
