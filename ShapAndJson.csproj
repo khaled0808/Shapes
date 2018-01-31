@@ -87,9 +87,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="RestService\RestService.csproj">
-      <Project>{145f1d71-923d-4c33-ac57-6bef6b31429b}</Project>
-      <Name>RestService</Name>
+    <ProjectReference Include="RestServer\ShapeRestServer.csproj">
+      <Project>{5aeb9a01-e156-4673-b500-56cc3b4d17ce}</Project>
+      <Name>ShapeRestServer</Name>
     </ProjectReference>
     <ProjectReference Include="ShapeData\ShapeData\ShapeData.csproj">
       <Project>{763fa2ad-4ba9-49e3-903f-ebcf27a62d2c}</Project>

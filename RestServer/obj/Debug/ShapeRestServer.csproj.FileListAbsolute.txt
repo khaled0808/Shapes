@@ -1,0 +1,8 @@
+C:\test\Shapes\RestServer\bin\Debug\RestServer.dll
+C:\test\Shapes\RestServer\bin\Debug\RestServer.pdb
+C:\test\Shapes\RestServer\bin\Debug\Newtonsoft.Json.dll
+C:\test\Shapes\RestServer\bin\Debug\ShapeData.dll
+C:\test\Shapes\RestServer\bin\Debug\ShapeData.pdb
+C:\test\Shapes\RestServer\obj\Debug\ShapeRestServer.csprojResolveAssemblyReference.cache
+C:\test\Shapes\RestServer\obj\Debug\RestServer.dll
+C:\test\Shapes\RestServer\obj\Debug\RestServer.pdb

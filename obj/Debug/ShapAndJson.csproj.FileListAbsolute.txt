@@ -22,3 +22,17 @@ Z:\test\Shapes\obj\Debug\ShapeAndJson.Properties.Resources.resources
 Z:\test\Shapes\obj\Debug\ShapAndJson.csproj.GenerateResource.Cache
 Z:\test\Shapes\obj\Debug\ShapeAndJson.exe
 Z:\test\Shapes\obj\Debug\ShapeAndJson.pdb
+C:\test\Shapes\bin\Debug\ShapeAndJson.exe.config
+C:\test\Shapes\bin\Debug\ShapeAndJson.exe
+C:\test\Shapes\bin\Debug\ShapeAndJson.pdb
+C:\test\Shapes\bin\Debug\Newtonsoft.Json.dll
+C:\test\Shapes\bin\Debug\RestServer.dll
+C:\test\Shapes\bin\Debug\ShapeData.dll
+C:\test\Shapes\bin\Debug\RestServer.pdb
+C:\test\Shapes\bin\Debug\ShapeData.pdb
+C:\test\Shapes\obj\Debug\ShapAndJson.csprojResolveAssemblyReference.cache
+C:\test\Shapes\obj\Debug\ShapeAndJson.ShapeDialoge.resources
+C:\test\Shapes\obj\Debug\ShapeAndJson.Properties.Resources.resources
+C:\test\Shapes\obj\Debug\ShapAndJson.csproj.GenerateResource.Cache
+C:\test\Shapes\obj\Debug\ShapeAndJson.exe
+C:\test\Shapes\obj\Debug\ShapeAndJson.pdb

@@ -4,3 +4,9 @@ Z:\test\Shapes\ShapeData\ShapeData\bin\Debug\ShapeData.pdb
 Z:\test\Shapes\ShapeData\ShapeData\bin\Debug\Newtonsoft.Json.dll
 Z:\test\Shapes\ShapeData\ShapeData\obj\Debug\ShapeData.dll
 Z:\test\Shapes\ShapeData\ShapeData\obj\Debug\ShapeData.pdb
+C:\test\Shapes\ShapeData\ShapeData\bin\Debug\ShapeData.dll.config
+C:\test\Shapes\ShapeData\ShapeData\bin\Debug\ShapeData.dll
+C:\test\Shapes\ShapeData\ShapeData\bin\Debug\ShapeData.pdb
+C:\test\Shapes\ShapeData\ShapeData\bin\Debug\Newtonsoft.Json.dll
+C:\test\Shapes\ShapeData\ShapeData\obj\Debug\ShapeData.dll
+C:\test\Shapes\ShapeData\ShapeData\obj\Debug\ShapeData.pdb

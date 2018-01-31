@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.ServiceModel.Web;
+using System.ServiceModel;
+using ShapeRestServer;
 
 namespace ShapeAndJson
 {
@@ -16,7 +19,22 @@ namespace ShapeAndJson
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ShapeDialoge());
+            ShapeDialoge showDialog = new ShapeDialoge();
+            WebServiceHost webHost = new WebServiceHost(typeof(RestServer), new Uri("http://localhost:35799/"));
+            try
+            {
+                RestServer.OnAddCircle += showDialog.rest_OnAddCircle;
+                //
+                //
+                //
+                webHost.Open();
+            }
+            catch (CommunicationException cex)
+            {
+                Console.WriteLine("An exception occurred: {0}", cex.Message);
+                webHost.Abort();
+            }
+            Application.Run(showDialog);
         }
     }
 }

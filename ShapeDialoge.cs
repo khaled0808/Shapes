@@ -13,7 +13,10 @@ using System.Dynamic;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using ShapeData;
-using RestService;
+using ShapeRestServer;
+using System.ServiceModel.Web;
+using System.ServiceModel;
+using System.ServiceModel.Description;
 
 namespace ShapeAndJson
 {
@@ -24,12 +27,18 @@ namespace ShapeAndJson
         public ShapeDialoge()
         {
             InitializeComponent();
-	}
+        }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
         }
-        
+
+        public void rest_OnAddCircle(object source, RestEvents.CircleEventArgs e)
+        {
+            textBoxShape.Text = "From Rest Service:" + JsonConvert.SerializeObject(e.GetCircle(), Formatting.Indented);
+        }
+
         private void buttonOpenFileDialog_Click(object sender, EventArgs e)
         {
             string text;
