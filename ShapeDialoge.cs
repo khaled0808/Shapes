@@ -27,6 +27,7 @@ namespace ShapeAndJson
         public ShapeDialoge()
         {
             InitializeComponent();
+
         }
 
 
